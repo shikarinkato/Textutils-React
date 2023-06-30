@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Jost&family=Lato&family=Montserrat&family=Mulish&family=Open+Sans&family=Poppins:ital@0;1&family=Ubuntu&display=swap');
+
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --grey: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+nav {
+    background: var(--grey);
+}
+
+.justify-start,
+.items-center {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.space {
+    margin: 1rem;
+}
+
+ul {
+    list-style: none;
+    cursor: pointer;
+}
+
+.text1 {
+    font-family: 'ubuntu';
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.text2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.search {
+    padding: 0rem 1rem;
+}
+
+.search input {
+    width: 10rem;
+    border-radius: 2rem;
+    min-height: 2rem;
+    outline: none;
+    border: none;
+    padding: 0rem 1rem;
+    font-family: 'josefin sans', sans-serif;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn {
+    padding: 0.5rem 0.5rem;
+    border-radius: 4rem;
+    background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    margin: 0rem 1rem;
+    cursor: pointer;
+}
+
+.search input:focus {
+    box-shadow: 0rem 0rem 0.3rem 0.3rem #8be0dc;
+    width: 15rem;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form1 label {
+    padding: 2rem;
+}
+
+
+
+.mode i {
+    cursor: pointer;
+}
+
+.darkmode {
+    background: linear-gradient(109.6deg, rgb(255, 78, 80) 11.2%, rgb(249, 212, 35) 100.2%);
+    color: whitesmoke;
+} */
+.mode {
+    position: fixed;
+    left: 90rem;
+}
+
+.form button {
+    position: relative;
+    left: 12rem;
+    top: 1rem;
+}
+
+#desc {
+    min-width: 30rem;
+    min-height: 10rem;
+    border: 1px solid black;
+}
